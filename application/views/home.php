@@ -1,38 +1,4 @@
-  <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <nav class="navbar navbar-inverse" role="navigation">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-                      <span class="sr-only">Toggle navigation</span>
-                    </button>
-                    <a class="navbar-brand" href="#">Bay Watch</a>
-                  </div>
-                  <div class="collapse navbar-collapse" id="navbar-collapse-01">
-                    <ul class="nav navbar-nav">           
-                      <li class="active"><a href="#fakelink">Home</a></li>
-                      <li><a href="./about.html">About</a></li>
-                      <li><a href="#fakelink">Our Team</a></li>
-                      <li><a href="./contact.html">Contact</a></li>
-                    </ul>           
-                    <form class="navbar-form navbar-right" action="#" role="search">
-                      <div class="form-group">
-                        <div class="input-group">
-                          <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
-                          <span class="input-group-btn">
-                            <button type="submit" class="btn"><span class="fui-search"></span></button>
-                          </span>            
-                        </div>
-                      </div>               
-                    </form>
-                  </div><!-- /.navbar-collapse -->
-                </nav><!-- /navbar -->
-            </div><!-- /col -->
-        </div><!-- /row -->
-        </div>
-    <!-- /.container -->
-
+ 
 
 
 
@@ -42,8 +8,9 @@
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
               <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
                 
               </ol>
 
@@ -52,16 +19,22 @@
                 <div class="item active">
                   <img src="<?php echo $res ?>/images/carousel/1.jpg" alt="FirstSlide">
                   <div class="carousel-caption">
-                      <small>BayWatch Understand</small>
+                      <h2>BayWatch Understand</h2>
                   </div>
                 </div>
                 <div class="item">
                   <img src="<?php echo $res ?>/images/carousel/2.jpg" alt="secondslide">
                   <div class="carousel-caption">
-                    <small>Baywatch help</small>
+                    <h2>Baywatch help</h2>
                   </div>
                 </div>
                 
+                <div class="item">
+                  <img src="<?php echo $res ?>/images/carousel/3.jpg" alt="thirdslide">
+                  <div class="carousel-caption">
+                    <h2>Baywatch Is For You</h2>
+                  </div>
+                </div>              
                
 
               </div>

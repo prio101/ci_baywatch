@@ -7,13 +7,13 @@
 			/*Load the css and js data path*/
 			$data = array(
 						'title'=>'Bay watch',
-						'res' =>'../res',
+						'res' =>'./res',
 				) ;
 
 			/*this is gonna load the view of home*/
 			
 			$this->load->view('header',$data) ;
-			$this->load->view('home')	;
+			$this->load->view('home',$data)	;
 			$this->load->view('footer',$data)	;
 
 		}
